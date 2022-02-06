@@ -9,5 +9,6 @@ int main()
 {
     using namespace std;
 
+    cout<<f(6);
     return 0;
 }
