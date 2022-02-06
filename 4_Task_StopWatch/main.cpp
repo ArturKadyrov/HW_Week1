@@ -19,6 +19,17 @@ int main()
 
             }
         }
+        T1.pause();
+
+        T1.resume();
+
+        for (int i = 0 ; i<N; i++)
+        {
+            for (int j=0 ; j<N;j++)
+            {
+
+            }
+        }
 
     //
     T1.stop();
