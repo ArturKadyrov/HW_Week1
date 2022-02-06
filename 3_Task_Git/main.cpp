@@ -9,5 +9,6 @@ int main()
 {
     using namespace std;
 
+    cout<<f(5);
     return 0;
 }
