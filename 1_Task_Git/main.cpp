@@ -9,5 +9,7 @@ int main()
 {
     using namespace std;
 
+    cout<<sum(4 , 5)<<endl;
+
     return 0;
 }
