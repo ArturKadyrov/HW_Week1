@@ -26,7 +26,7 @@ void StopWatch::pause ()
 {
     m_stop = std::chrono::steady_clock::now();
     auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(m_stop - m_start);
-    m_counter = elapsed.count() ;
+    m_counter += elapsed.count() ;
 }
 
 void StopWatch::resume ()
